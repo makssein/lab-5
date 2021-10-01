@@ -14,8 +14,8 @@ int main(){
     setlocale(LC_ALL, "Rus");
     unsigned char c;
 
-    std::ifstream in("/Users/maksimsein/Documents/c++/lab-5-1/input.txt");
-    std::ofstream out("/Users/maksimsein/Documents/c++/lab-5-1/output.txt");
+    std::ifstream in("input.txt");
+    std::ofstream out("output.txt");
 
     while (in >> c){
         if (c >= 192 && c <= 223)
