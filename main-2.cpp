@@ -19,7 +19,7 @@ int main(){
 
     int n,k,i,j,b,c;
     char s[100];
-    std::array<std::string, 100> mas;
+    std::array<std::string, 10000> mas;
     b=1;
     k=1;
     i=0;
