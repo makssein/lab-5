@@ -45,9 +45,9 @@ int main(){
             for(int i; i<k; i++){
                 if(s != mas[i]){
                     mas[k] = s; 
+                    k++; 
                 }
-            }
-            k++;   
+            }  
         }     
         b=1;
         i=0;
